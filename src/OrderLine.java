@@ -7,7 +7,7 @@ public class OrderLine {
     private double unitPrice;
 
     // Constructors
-    public OrderLine(int quantity, double unitPrice, Pizza pizza, String size) {
+    public OrderLine(Pizza pizza, int quantity, String size, double unitPrice) {
         this.quantity = quantity;
         this.unitPrice = unitPrice;
         this.pizza = pizza;
