@@ -6,6 +6,7 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
+        int orderNr = 0;
 
 //      String customerName = scanner.nextLine();
 //      SimpleDateFormat Dato = new SimpleDateFormat();
@@ -30,8 +31,12 @@ public class Main {
             int input = scanner.nextInt();
             switch (input) {
                 case 1: // Tilføj Ordre
+                    creatOrder(scanner);
+
                     System.out.println("Hvilken pizza vil du bestille?");
                     int pizza = scanner.nextInt();
+
+
 
                     System.out.println("Indtast navn på ordre");
                     String ordre = scanner.next();
@@ -82,5 +87,11 @@ public class Main {
                     break;
             }
         }
+    }
+
+    public static void createOrder (Scanner scanner) {
+        
+
+
     }
 }
