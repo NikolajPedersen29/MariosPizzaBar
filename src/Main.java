@@ -31,7 +31,6 @@ public class Main {
             int input = scanner.nextInt();
             switch (input) {
                 case 1: // Tilføj Ordre
-                    creatOrder(scanner);
 
                     System.out.println("Hvilken pizza vil du bestille?");
                     int pizza = scanner.nextInt();
@@ -87,11 +86,5 @@ public class Main {
                     break;
             }
         }
-    }
-
-    public static void createOrder (Scanner scanner) {
-        
-
-
     }
 }
